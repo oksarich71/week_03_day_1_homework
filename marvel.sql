@@ -55,6 +55,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '19:
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '22:20');
 
 
-UPDATE movies_show_time 
-SET show_time = '18:20'
-WHERE title = 'Guardians of the Galaxy 2';
+DELETE FROM people
+WHERE name LIKE '%A%'; 
