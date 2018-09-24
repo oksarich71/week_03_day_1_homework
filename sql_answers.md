@@ -22,7 +22,7 @@ SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
 
 UPDATE movies
 SET show_time = '18:20'
-WHERE title = 'Guardians of the Galaxy
+WHERE title = 'Guardians of the Galaxy;
 
 DELETE FROM people
-WHERE name LIKE '%A%'; 
+WHERE name LIKE '%A%';

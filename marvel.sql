@@ -55,5 +55,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '19:
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '22:20');
 
 
-DELETE FROM people
-WHERE name LIKE '%A%'; 
+SELECT * FROM movies
+ORDER BY year DESC; 
